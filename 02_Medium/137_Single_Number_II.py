@@ -37,4 +37,5 @@ counterone以為只有出現一次，無法辨別出現第三次
 
 countertwo則是出現一次的話要，要靠&(~countone)消除
 出現第三次，本身就可以依靠^消除
+ref:https://leetcode.com/problems/single-number-ii/discuss/43360/The-simplest-solution-ever-with-clear-explanation
 '''
