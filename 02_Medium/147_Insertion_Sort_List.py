@@ -26,7 +26,6 @@ class Solution:
         dummy = ListNode(0)
         dummy.next = head
         
-        prev = dummy
         cur = dummy.next
         
         while cur and cur.next:
