@@ -19,12 +19,12 @@ class Solution:
         l = 0
         r = 0
         while r<len(s):
-            #找單詞區間步驟1
+            #找單詞區間步驟1: 找左邊界(l)
             if s[l] == " " and s[r] == " ":
                 l += 1
                 r += 1
                 continue
-            #找單詞區間步驟2
+            #找單詞區間步驟2: 找右邊界(r)
             if s[l]!=" " and (r+1)<len(s) and s[r+1]!=" ":
                 r += 1 # r向前一步，直到r+1的位置是space，那l~r就是單詞區間
             
